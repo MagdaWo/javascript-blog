@@ -148,11 +148,20 @@ body {
 
 }
 
+ul.authors-list {
+padding-inline-start: 0;
+}
+.list.authors {
+  display: inline;
+}
+
 .list.authors li {
   margin-bottom: 5px;
+  display: inline;
 }
 
 .list.authors a {
+  font-size: 16px;
   color: #444;
   text-decoration: none;
 }
